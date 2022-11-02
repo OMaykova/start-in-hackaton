@@ -5,7 +5,7 @@ import './Header.css';
 import {user} from "../../utils/user"
 
 import {Avatar, Box} from "@mui/material";
-const isLoggedIn = true;
+const isLoggedIn = false;
 
 function Header() {
   let header__container;

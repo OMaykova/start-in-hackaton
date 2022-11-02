@@ -1,11 +1,11 @@
 import React from 'react';
-
+import './Idea.css'
 import {Box, Avatar, Button, Card, CardMedia, CardContent, styled, Typography, IconButton} from "@mui/material";
 import {user} from '../../utils/user';
-import foto from "../../images/foto.jpg";
 import idea1 from "../../images/idea1.svg";
 import like from "../../images/like.svg";
 import dislike from "../../images/dislike.svg";
+import {ideas} from '../../utils/ideas';
 
 const FilterButton = styled(Button)(() => ({
   backgroundColor: "#36A9E1",
@@ -29,25 +29,32 @@ function Idea({idea}) {
       borderRadius: "20px", 
       background: "#FFFFFF", 
       padding: "30px 23px", 
-      boxSizing: "border-box"
+      boxSizing: "border-box",
+      mb: '20px',
       }}>
         <Card sx={{boxShadow:'0'}}>
           <Box sx={{display:'flex', alignItems:'center'}}>
             <Avatar
               alt={user.name}
-              src={foto}
+              src={user.avatar}
               sx={{ width: "45px", height: "45px", borderRadius: "50%"}}
             />
             <Typography sx={{ml:'15px', fontWeight: '600', fontSize:'16px'}}>{user.name}</Typography>
             <Typography sx={{ml:'5px', fontSize:'14px', color: '#7E7E7E'}}>cегодня в 18:45</Typography>
           </Box>
           <Typography sx={{fontSize: '24px',
-            lineHeight: '28px', mt:'23px',mb:'5px'}}>Как создать свое идеальное путешествие при помощи одного сайта?
+            lineHeight: '28px', mt:'23px',mb:'5px'}}>{idea.title}
           </Typography>
-          <Box sx={{display:'flex'}}>
-            <FilterButton>Туристическое</FilterButton>
-            <FilterButton sx={{ml:'10px'}}>Популярное</FilterButton>
-          </Box>
+       
+          <ul className='idea-categories'>
+            {
+              idea.category.map((cat, id) => 
+              <li key={id}>
+                <FilterButton sx={{mr:'10px'}}>{cat}</FilterButton>
+              </li>
+              )
+            }
+          </ul>
           <CardMedia
             component="img"
             height="414"
@@ -57,21 +64,18 @@ function Idea({idea}) {
           />
           <CardContent>
             <Typography variant="body2">
-              Мы предлагаем новый продукт, который поможет создать каждому пользователю свое идеальное 
-              путешествие. Данный ресурс на основе машинного обучения и поддержке нейронных сетей сможет 
-              по запросу пользователя подобрать транспорт, отель и развлечения, чтобы сэкономить время и 
-              нервы на этот непростой процесс. Присоединяйся!
+              {idea.text}
             </Typography>
           </CardContent>
           <Box sx={{display:'flex', alignItems:'center'}}>
             <IconButton aria-label="add to favorites">
               <img src={like} alt='Нравится' />
             </IconButton>
-            <Typography >123</Typography>
+            <Typography >{idea.like}</Typography>
             <IconButton aria-label="share">
             <img src={dislike} alt='Не нравится' />
             </IconButton>
-            <Typography>12</Typography>
+            <Typography>{idea.dislike}</Typography>
           </Box>
         </Card>
     </Box>
