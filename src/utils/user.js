@@ -1,3 +1,6 @@
+import foto from "../images/foto.jpg";
+
 export const user ={
-	name: 'Petya',
+  name: 'Petya',
+  avatar: "../images/foto.jpg",
 }

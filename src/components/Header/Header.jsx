@@ -1,12 +1,11 @@
-import React, { Profiler } from 'react';
+import React from 'react';
 import logo from '../../images/logo.svg';
 import { Link } from "react-router-dom";
 import './Header.css';
-import foto from "../../images/foto.jpg";
 import {user} from "../../utils/user"
 
-import {Avatar, Box, Button, Card, CardContent, styled, Typography} from "@mui/material";
-const isLoggedIn = false;
+import {Avatar, Box} from "@mui/material";
+const isLoggedIn = true;
 
 function Header() {
   let header__container;
@@ -22,7 +21,7 @@ function Header() {
         <Link to = '/profile' className='header__link'>Кабинет</Link>
         <Avatar
           alt={user.name}
-          src={foto}
+          src={user.avatar}
           sx={{ width: "45px", height: "45px", borderRadius: "50%", ml: "16px"}}
         />
       </Box>

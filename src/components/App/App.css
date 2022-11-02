@@ -5,7 +5,9 @@
   max-width: 1400px;
   margin: 0 auto;
   font-family: 'Roboto', 'Inter', Arial, sans-serif;
-  color: #F3F3F3;
+  color: #000000;
+  background-color: #F3F3F3;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
