@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/start-in-hachaton/static/css/main.999ac881.css",
+    "main.js": "/start-in-hachaton/static/js/main.65e1408d.js",
+    "static/js/787.4403372c.chunk.js": "/start-in-hachaton/static/js/787.4403372c.chunk.js",
+    "static/media/idea1.svg": "/start-in-hachaton/static/media/idea1.8bd058282561bce9b05d39fabfb8cb04.svg",
+    "static/media/additionalFoto.svg": "/start-in-hachaton/static/media/additionalFoto.ef081c1d777c3b8c2be3deaa690707ea.svg",
+    "static/media/foto.jpg": "/start-in-hachaton/static/media/foto.352b067154f3416b4a53.jpg",
+    "static/media/Culture.svg": "/start-in-hachaton/static/media/Culture.fdac1c5c43c35ad0b9b56f46ca344a04.svg",
+    "static/media/logo.svg": "/start-in-hachaton/static/media/logo.77e995e86434cd77ba3f0a6f048da565.svg",
+    "static/media/Digits.svg": "/start-in-hachaton/static/media/Digits.efd3e055af3cf4d6567e48d6b6d9f256.svg",
+    "static/media/Other.svg": "/start-in-hachaton/static/media/Other.c8590160fd368a69b36fdeab94525293.svg",
+    "static/media/Tourism.svg": "/start-in-hachaton/static/media/Tourism.231ac42850e533ed02ae7281e7e0eec7.svg",
+    "static/media/Popular.svg": "/start-in-hachaton/static/media/Popular.2949bf22cc86d935dc5da950f7843766.svg",
+    "static/media/Sport.svg": "/start-in-hachaton/static/media/Sport.3f4310aa2f17b8a43ce4148a08dd07a9.svg",
+    "static/media/Tech.svg": "/start-in-hachaton/static/media/Tech.9528cacc26b785a2d3ab3ceebf404e18.svg",
+    "static/media/dislike.svg": "/start-in-hachaton/static/media/dislike.cccfb149349c4b6c3140f4720fe29172.svg",
+    "static/media/like.svg": "/start-in-hachaton/static/media/like.e3af4ebb13dddabd0daab7a042b95b84.svg",
+    "static/media/Recomend.svg": "/start-in-hachaton/static/media/Recomend.595daa33ad6484d3c40d65d31c73b237.svg",
+    "index.html": "/start-in-hachaton/index.html",
+    "main.999ac881.css.map": "/start-in-hachaton/static/css/main.999ac881.css.map",
+    "main.65e1408d.js.map": "/start-in-hachaton/static/js/main.65e1408d.js.map",
+    "787.4403372c.chunk.js.map": "/start-in-hachaton/static/js/787.4403372c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.999ac881.css",
+    "static/js/main.65e1408d.js"
+  ]
+}
