@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/start-in-hachaton/static/css/main.999ac881.css",
-    "main.js": "/start-in-hachaton/static/js/main.c22b553d.js",
+    "main.js": "/start-in-hachaton/static/js/main.3bf746e6.js",
     "static/js/787.4403372c.chunk.js": "/start-in-hachaton/static/js/787.4403372c.chunk.js",
     "static/media/idea1.svg": "/start-in-hachaton/static/media/idea1.1a56c54fe06872f3a78f56f51faa1a68.svg",
     "static/media/additionalFoto.svg": "/start-in-hachaton/static/media/additionalFoto.e7461879d37918e1fefa966adeb1955b.svg",
@@ -19,11 +19,11 @@
     "static/media/Recomend.svg": "/start-in-hachaton/static/media/Recomend.6cb6a5466a85dff29028307a59bcd881.svg",
     "index.html": "/start-in-hachaton/index.html",
     "main.999ac881.css.map": "/start-in-hachaton/static/css/main.999ac881.css.map",
-    "main.c22b553d.js.map": "/start-in-hachaton/static/js/main.c22b553d.js.map",
+    "main.3bf746e6.js.map": "/start-in-hachaton/static/js/main.3bf746e6.js.map",
     "787.4403372c.chunk.js.map": "/start-in-hachaton/static/js/787.4403372c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.999ac881.css",
-    "static/js/main.c22b553d.js"
+    "static/js/main.3bf746e6.js"
   ]
 }
