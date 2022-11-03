@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/start-in-hachaton/static/css/main.999ac881.css",
-    "main.js": "/start-in-hachaton/static/js/main.65e1408d.js",
+    "main.js": "/start-in-hachaton/static/js/main.c22b553d.js",
     "static/js/787.4403372c.chunk.js": "/start-in-hachaton/static/js/787.4403372c.chunk.js",
-    "static/media/idea1.svg": "/start-in-hachaton/static/media/idea1.8bd058282561bce9b05d39fabfb8cb04.svg",
-    "static/media/additionalFoto.svg": "/start-in-hachaton/static/media/additionalFoto.ef081c1d777c3b8c2be3deaa690707ea.svg",
+    "static/media/idea1.svg": "/start-in-hachaton/static/media/idea1.1a56c54fe06872f3a78f56f51faa1a68.svg",
+    "static/media/additionalFoto.svg": "/start-in-hachaton/static/media/additionalFoto.e7461879d37918e1fefa966adeb1955b.svg",
     "static/media/foto.jpg": "/start-in-hachaton/static/media/foto.352b067154f3416b4a53.jpg",
-    "static/media/Culture.svg": "/start-in-hachaton/static/media/Culture.fdac1c5c43c35ad0b9b56f46ca344a04.svg",
-    "static/media/logo.svg": "/start-in-hachaton/static/media/logo.77e995e86434cd77ba3f0a6f048da565.svg",
-    "static/media/Digits.svg": "/start-in-hachaton/static/media/Digits.efd3e055af3cf4d6567e48d6b6d9f256.svg",
-    "static/media/Other.svg": "/start-in-hachaton/static/media/Other.c8590160fd368a69b36fdeab94525293.svg",
-    "static/media/Tourism.svg": "/start-in-hachaton/static/media/Tourism.231ac42850e533ed02ae7281e7e0eec7.svg",
-    "static/media/Popular.svg": "/start-in-hachaton/static/media/Popular.2949bf22cc86d935dc5da950f7843766.svg",
-    "static/media/Sport.svg": "/start-in-hachaton/static/media/Sport.3f4310aa2f17b8a43ce4148a08dd07a9.svg",
-    "static/media/Tech.svg": "/start-in-hachaton/static/media/Tech.9528cacc26b785a2d3ab3ceebf404e18.svg",
-    "static/media/dislike.svg": "/start-in-hachaton/static/media/dislike.cccfb149349c4b6c3140f4720fe29172.svg",
-    "static/media/like.svg": "/start-in-hachaton/static/media/like.e3af4ebb13dddabd0daab7a042b95b84.svg",
-    "static/media/Recomend.svg": "/start-in-hachaton/static/media/Recomend.595daa33ad6484d3c40d65d31c73b237.svg",
+    "static/media/Culture.svg": "/start-in-hachaton/static/media/Culture.2b78bc1c6d9229a09d2de93e06cf4279.svg",
+    "static/media/logo.svg": "/start-in-hachaton/static/media/logo.7ef0a9b6b1d814d80bfbe08205c0a4fb.svg",
+    "static/media/Digits.svg": "/start-in-hachaton/static/media/Digits.e2acddaecf7f3019eac1efbe9ed35840.svg",
+    "static/media/Other.svg": "/start-in-hachaton/static/media/Other.639ff8e0e0a8a0911b96f1c71722bc7a.svg",
+    "static/media/Tourism.svg": "/start-in-hachaton/static/media/Tourism.b4ff956d2663acc7027ed2d76e5cb11f.svg",
+    "static/media/Popular.svg": "/start-in-hachaton/static/media/Popular.2247593926f0802d7cc20e77a5a098c8.svg",
+    "static/media/Sport.svg": "/start-in-hachaton/static/media/Sport.ca90c15375b7bad80f7b18041f9be89f.svg",
+    "static/media/Tech.svg": "/start-in-hachaton/static/media/Tech.df0ed148dc85c5e4808f67543c0adf74.svg",
+    "static/media/dislike.svg": "/start-in-hachaton/static/media/dislike.636512a3b4651143fe2815489759976c.svg",
+    "static/media/like.svg": "/start-in-hachaton/static/media/like.31143fcd7e3049b940624a8d411eb7cc.svg",
+    "static/media/Recomend.svg": "/start-in-hachaton/static/media/Recomend.6cb6a5466a85dff29028307a59bcd881.svg",
     "index.html": "/start-in-hachaton/index.html",
     "main.999ac881.css.map": "/start-in-hachaton/static/css/main.999ac881.css.map",
-    "main.65e1408d.js.map": "/start-in-hachaton/static/js/main.65e1408d.js.map",
+    "main.c22b553d.js.map": "/start-in-hachaton/static/js/main.c22b553d.js.map",
     "787.4403372c.chunk.js.map": "/start-in-hachaton/static/js/787.4403372c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.999ac881.css",
-    "static/js/main.65e1408d.js"
+    "static/js/main.c22b553d.js"
   ]
 }
