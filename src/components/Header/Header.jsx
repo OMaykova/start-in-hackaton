@@ -1,19 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../../images/logo.svg';
 import { Link } from "react-router-dom";
 import './Header.css';
 import {user} from "../../utils/user"
 
 import {Avatar, Box} from "@mui/material";
-const isLoggedIn = false;
+
 
 function Header() {
+  //захардкодим авторизацию, пока ее нет
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  function handlerLogin(){
+    setIsLoggedIn(true)
+  }
   let header__container;
   if (!isLoggedIn) {
     header__container =
     <Box>
-      <Link to = '/signup' className='header__link'>Регистрация</Link>
-      <Link to = '/signin' className='header__link'>Войти</Link>
+      <Link onClick={handlerLogin} className='header__link'>Регистрация</Link>
+      <Link onClick={handlerLogin} className='header__link'>Войти</Link>
     </Box>
   } else {
     header__container =
